@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Solar Forecast</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>☀️ Solar Forecast</h1>
+  <p>Type a city name to see tomorrow's solar energy estimate.</p>
+
+  <div class="search">
+    <input id="cityInput" type="text" placeholder="Enter a city (e.g. Helsinki)">
+    <button id="searchBtn">Get Forecast</button>
+  </div>
+
+  <div id="result" class="hidden">
+    <h2 id="cityName"></h2>
+    <p>🌡️ Avg Temp: <span id="avgTemp"></span> °C</p>
+    <p>☁️ Cloud Cover: <span id="cloud"></span> %</p>
+    <p>🌞 Sunshine: <span id="sun"></span> h</p>
+    <p>⚡ Predicted Energy: <strong><span id="energy"></span> kWh</strong></p>
+  </div>
+
+  <p id="error"></p>
+
+  <script src="./app.js"></script>
+</body>
+</html>

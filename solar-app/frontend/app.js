@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:5000";
+const API_BASE = "http://51.20.142.29:5000";
 
 const input = document.getElementById("cityInput");
 const btn = document.getElementById("searchBtn");
